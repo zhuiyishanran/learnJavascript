@@ -9,6 +9,7 @@ function addLoadEvent(func) {
         }
     }
 }
+
 function insertAfter(newElement, targetElement) {
     var parent = targetElement.parentNode;
     if (parent.lastChild == targetElement) {
@@ -17,6 +18,7 @@ function insertAfter(newElement, targetElement) {
         parent.insertBefore(newElement, targetElement.nextSibling);
     }
 }
+
 function preparePlaceholder() {
     if (!document.createElement) return false;
     if (!document.createTextNode) return false;
@@ -34,6 +36,7 @@ function preparePlaceholder() {
     insertAfter(placeholder, gallery);
     insertAfter(description, placeholder);
 }
+
 function prepareGallery() {
     if (!document.getElementsByTagName) return false;
     if (!document.getElementById) return false;
@@ -47,6 +50,7 @@ function prepareGallery() {
         links[i].onkeypress = links[i].onclick;
     }
 }
+
 function showPic(whichpic) {
     if (!document.getElementById("placeholder")) return true;
     var source = whichpic.getAttribute("href");
