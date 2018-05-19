@@ -4,6 +4,118 @@
 		"selected_items":
 		[
 			[
+				"tw",
+				"tweet"
+			],
+			[
+				"se",
+				"selectObj"
+			],
+			[
+				"twee",
+				"tweet"
+			],
+			[
+				"fill",
+				"fillText"
+			],
+			[
+				"tex",
+				"textAlign"
+			],
+			[
+				"sele",
+				"selectedIndex"
+			],
+			[
+				"tweets",
+				"tweetsSelection"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"de",
+				"drawSquare"
+			],
+			[
+				"fil",
+				"fillStyle"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"sel",
+				"selectObj"
+			],
+			[
+				"ba",
+				"backgroundColor"
+			],
+			[
+				"wat",
+				"watchId"
+			],
+			[
+				"wa",
+				"watchId"
+			],
+			[
+				"displa",
+				"displayLocation"
+			],
+			[
+				"cl",
+				"clearWatch"
+			],
+			[
+				"gogo",
+				"googleLatAndLong"
+			],
+			[
+				"inf",
+				"infoWindow"
+			],
+			[
+				"info",
+				"infoWindowOptions"
+			],
+			[
+				"border",
+				"border-width\tproperty"
+			],
+			[
+				"des",
+				"destLongRads"
+			],
+			[
+				"s",
+				"startLongRads"
+			],
+			[
+				"err",
+				"errorMessage"
+			],
+			[
+				"play",
+				"playlistArray"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"song",
+				"songName"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
 				"body",
 				"bodyClass"
 			],
@@ -16,13 +128,20 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"file": "/E/javascript/HeadFirstHTML5/chapter3/musicList.html",
-			"file_size": 0,
-			"file_write_time": 131710990835767526,
+			"file": "/E/javascript/HeadFirstHTML5/chapter6/canvas.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1323,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/javascript/HeadFirstHTML5/chapter6/tweetshirt.js",
+			"settings":
+			{
+				"buffer_size": 2823,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -39,12 +158,20 @@
 		"selected_items":
 		[
 			[
-				"Install Package",
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install Pa",
 				"Package Control: Install Package"
 			],
 			[
 				"install",
-				"Colorsublime: Install Theme"
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
 			]
 		],
 		"width": 0.0
@@ -68,6 +195,21 @@
 	},
 	"file_history":
 	[
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter6/JSONP/mightygumball.js",
+		"/E/javascript/HeadFirstHTML5/chapter5/Gumball.html",
+		"/E/javascript/HeadFirstHTML5/chapter5/mightygumball.js",
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter6/mightygumball.js",
+		"/E/javascript/HeadFirstHTML5/chapter4/myLoc.js",
+		"/E/javascript/HeadFirstHTML5/chapter4/myloc.html",
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter5/myLoc.html",
+		"/E/javascript/HeadFirstHTML5/chapter4/myLoc.css",
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter5/myLoc.js",
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter5/myLoc.css",
+		"/E/javascript/HeadFirstHTML5/chapter3/playlist_store.js",
+		"/E/javascript/HeadFirstHTML5/chapter3/playlist.js",
+		"/E/javascript/HeadFirstHTML5/chapter3/musicList.html",
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter3/playlist_store.js",
+		"/E/javascript/HeadFirstHTML5/chapter3/palylist.js",
 		"/E/javascript/jQuery/chapter3/03.css",
 		"/E/javascript/jQuery/chapter3/03.js",
 		"/D/4.软件下载目录/bootstrap-4.1.1-dist/css/bootstrap-reboot.min.css",
@@ -113,19 +255,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/E/javascript/HeadFirstHTML5/chapter3/musicList.html",
+					"file": "/E/javascript/HeadFirstHTML5/chapter6/canvas.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1323,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1297,
+								1297
 							]
 						],
 						"settings":
@@ -133,22 +275,46 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 1,
+					"file": "/E/javascript/HeadFirstHTML5/chapter6/tweetshirt.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2821,
+								2821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -175,19 +341,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.408682807167,
-			0.724568223834,
+			0.458854166667,
 			1.0
 		],
 		"rows":
@@ -235,7 +394,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 1,
 	"settings":
 	{
 	},
