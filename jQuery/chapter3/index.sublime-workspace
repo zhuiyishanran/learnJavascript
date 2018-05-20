@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getFormatExtension"
+			],
+			[
+				"end",
+				"endedHandler"
+			],
+			[
+				"vi",
+				"video"
+			],
+			[
+				"id",
+				"idArreyToUnpush"
+			],
+			[
+				"eff",
+				"effectLinks"
+			],
+			[
+				"cont",
+				"controLinks"
+			],
+			[
+				"con",
+				"controLinks"
+			],
+			[
+				"play",
+				"playlist"
+			],
+			[
 				"tw",
 				"tweet"
 			],
@@ -100,14 +132,6 @@
 				"errorMessage"
 			],
 			[
-				"play",
-				"playlistArray"
-			],
-			[
-				"get",
-				"getElementById"
-			],
-			[
 				"song",
 				"songName"
 			],
@@ -128,21 +152,47 @@
 	"buffers":
 	[
 		{
-			"file": "/E/javascript/HeadFirstHTML5/chapter6/canvas.html",
+			"file": "/E/javascript/HeadFirstHTML5/chapter8/webvilletv.html",
 			"settings":
 			{
-				"buffer_size": 1323,
+				"buffer_size": 483,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/javascript/HeadFirstHTML5/chapter6/tweetshirt.js",
+			"file": "/E/javascript/HeadFirstHTML5/chapter8/videobooth.html",
 			"settings":
 			{
-				"buffer_size": 2823,
+				"buffer_size": 896,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/javascript/HeadFirstHTML5/chapter8/webvilletv.js",
+			"settings":
+			{
+				"buffer_size": 842,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/javascript/HeadFirstHTML5/chapter8/videobooth.js",
+			"settings":
+			{
+				"buffer_size": 3515,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter8/videobooth.css",
+			"settings":
+			{
+				"buffer_size": 1767,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -195,6 +245,10 @@
 	},
 	"file_history":
 	[
+		"/E/javascript/HeadFirstHTML5/chapter6/canvas.html",
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter7/tweetshirt.js",
+		"/E/javascript/HeadFirstHTML5/chapter6/tweetshirt.js",
+		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter7/index.html",
 		"/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter6/JSONP/mightygumball.js",
 		"/E/javascript/HeadFirstHTML5/chapter5/Gumball.html",
 		"/E/javascript/HeadFirstHTML5/chapter5/mightygumball.js",
@@ -250,24 +304,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/E/javascript/HeadFirstHTML5/chapter6/canvas.html",
+					"file": "/E/javascript/HeadFirstHTML5/chapter8/webvilletv.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1323,
+						"buffer_size": 483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1297,
-								1297
+								483,
+								483
 							]
 						],
 						"settings":
@@ -275,33 +329,61 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "/E/javascript/HeadFirstHTML5/chapter6/tweetshirt.js",
+					"file": "/E/javascript/HeadFirstHTML5/chapter8/videobooth.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2823,
+						"buffer_size": 896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2821,
-								2821
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/E/javascript/HeadFirstHTML5/chapter8/webvilletv.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								635,
+								635
 							]
 						],
 						"settings":
@@ -309,10 +391,67 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1056.8,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/javascript/HeadFirstHTML5/chapter8/videobooth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2249,
+								2249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/programming/Head-First-HTML5-master/Head-First-HTML5-master/chapter8/videobooth.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -346,7 +485,7 @@
 		"cols":
 		[
 			0.0,
-			0.458854166667,
+			0.438054607509,
 			1.0
 		],
 		"rows":
