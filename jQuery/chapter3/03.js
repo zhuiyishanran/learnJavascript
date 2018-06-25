@@ -1,10 +1,14 @@
-$(document).ready(function() {
-	$('#switcher-default').addClass('selected')
-	$('#switcher button').click(function(event) {
-		var bodyClass = this.id.split('-')[1];
-		$('body').removeClass().addClass(bodyClass);
+$(function() {
+	$('#switcher-default').addClass('selected');
+	$('#switcher button').on('click', function () {
+		$('body').removeClass();
 		$('#switcher button').removeClass('selected');
 		$(this).addClass('selected');
-		event.stopPropagation();
 	});
-}); 
+	$('#switcher-narrow').on('click', function() {
+		$('body').removeClass().addClass('narrow');
+	});
+	$('#switcher-large').on('click', function () {
+		$('body').removeClass().addClass('large');
+	});
+});
