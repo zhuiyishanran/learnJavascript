@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>xuanxiangka</title>
+	<style>
+		#div1 .active {background: yellow;}
+		#div1 div {width:300px; height:520px; background: #bbb; border: 1px solid #999; display: none;}
+		
+	</style>
+	<script>
+		window.onload = function () {
+			var odiv1 = document.getElementById('div1');
+			var oBtn = odiv1.getElementsByTagName('input');
+			var oDiv = odiv1.getElementsByTagName('div');
+
+			for (var i = 0; i < oBtn.length; i++) {
+				oBtn[i].index = i;
+				oBtn[i].onclick = function () {
+					for (var i = 0; i < oBtn.length; i++) {
+						oBtn[i].className = '';
+						oDiv[i].style.display = 'none';
+					}
+					this.className = "active";
+					oDiv[this.index].style.display = 'block';
+				};
+			}
+		};
+	</script>
+</head>
+<body>
+	<div id="div1" >
+		<input class="active" type="button" value="javascript">
+		<input type="button" value="java">
+		<input type="button" value="python">
+		<input type="button" value="rubyonrails">
+		<div style="display: block;">javascript</div>
+		<div>java</div>
+		<div>python</div>
+		<div>rubyonrails</div>
+	</div>
+</body>
+</html>
