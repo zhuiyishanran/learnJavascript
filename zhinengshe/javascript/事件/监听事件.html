@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		button {width: 80px; height: 30px; background: #abcdef; padding: 0px;}
+	</style>
+	<script>
+		/*function myEvent(obj, ev, fu) {
+			if (obj.attachEvent) {
+				obj.attachEvent('on'+ev, fn);
+			}else{
+				obj.addEventListener(ev, fn, false);
+			}
+		};*/
+		window.onload = function() {
+			var oBtn = document.getElementById('btn');
+
+			if (oBtn.addEventListener) {
+				oBtn.addEventListener('click', function() {
+					alert('a');
+				}, false);
+				oBtn.addEventListener('click', function() {
+					alert('b');
+				}, false);
+			} else {
+				oBtn.attachEvent('onclick', function() {
+					alert('a');
+				});
+				oBtn.attachEvent('onclick', function() {
+					alert('b');
+				});
+			}
+			/*myEvent(oBtn, 'click', function() {
+				alert('a');
+			});*/
+		};
+	</script>
+</head>
+<body>
+	<div>
+		<button id="btn">submit</button>
+	</div>
+</body>
+</html>
