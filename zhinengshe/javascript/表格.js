@@ -1,5 +1,5 @@
 window.onload = function () {
-	/*var atext = document.getElementsByTagName('input')[0];
+	var atext = document.getElementsByTagName('input')[0];
 	var atab = document.getElementsByTagName('tbody');
 	var oTab = document.getElementById('tab1');
 	var oldColor = '';
@@ -20,7 +20,7 @@ window.onload = function () {
 			oTab.tBodies[0].rows[i].style.background = '#555';
 		}
 	}
-};*/
+};
 	var oTab = document.getElementById('tab1');
 	var oName = document.getElementById('name');
 	var oAge = document.getElementById('age');
