@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		window.onload = function() {
+			const otxt1 = document.getElementById('txt1');
+			const otxt2 = document.getElementById('txt2');
+			const obtn = document.getElementById('btn');
+			const otxt3 = document.getElementById('txt3');
+			const obtn2 = document.getElementById('btn2');
+
+			obtn.onclick = function() {
+				let re = /北京|淘宝|腾讯/g;
+				otxt2.value = otxt1.value.replace(re,'***');
+			}
+
+			obtn2.onclick = function() {
+				let re = /^\w+@[a-z0-9]+\.[a-z]+$/i;
+				if (re.test(otxt3.value)) {
+					alert('good');
+				} else {
+					alert('bad');
+				}
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<textarea id="txt1" cols="30" rows="10"></textarea><br>
+	<button id="btn">过滤</button><br>
+	<textarea  id="txt2" cols="30" rows="10"></textarea><br>
+	<input type="text" id="txt3">
+	<button id="btn2">check</button>
+</body>
+</html>
