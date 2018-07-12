@@ -3,8 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js">
-	</script>
+	<script src="vue.min.js"></script>
 </head>
 <body>
 	<div id="app">
@@ -42,7 +41,22 @@
 			</todo-item>
 		</ol>
 	</div>
-
+	<ul id="example-1">
+		<li v-for="item in items">
+			{{ item.message }}
+		</li>
+	</ul>
+	<ul id="example-2">
+		<li v-for="(item, index) in items">
+			{{ parentMessage }} - {{ index }} - {{ item.message }}
+		</li>
+	</ul>
+	<ul id="v-for-object" class="demo">
+		<li v-for="value in object">
+			{{ value }}
+		</li>
+	</ul>
+	
 	<script src="vue.js"></script>
 </body>
 </html>
