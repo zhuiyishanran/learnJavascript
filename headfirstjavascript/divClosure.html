@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>click me!</title>
+	<style>
+		body, button {
+			margin: 10px;
+		}
+		div {
+			padding: 10px;
+		}
+	</style>
+	<script>
+		// var count = 0;
+		// window.onload = function () {
+		// 	var button = document.getElementById('clickme');;
+		// 	button.onclick = handleClick;
+		// };
+		// function handleClick() {
+		// 	var message = "You click me ";
+		// 	var div = document.getElementById('message');
+		// 	count++;
+		// 	div.innerHTML = message + count +" times.";
+		// }
+		window.onload = function () {
+			var count = 0;
+			var message = "You click me ";
+			var div = document.getElementById('message');
+			var button = document.getElementById('clickme');
+
+			button.onclick = function () {
+				count++;
+				div.innerHTML = message + count + " times";
+			};
+		};
+	</script>
+</head>
+<body>
+	<button id="clickme">Click me!</button>
+	<div id="message"></div>
+</body>
+</html>
